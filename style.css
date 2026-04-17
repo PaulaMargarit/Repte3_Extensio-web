@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/*Importem tipografia*/
+@font-face {
+  font-family: 'Caprasimo';
+  src: url('data/Caprasimo-Regular.ttf');
+}
+
+/*Botó inici*/
+#botoInici{
+  padding: 8px 20px;
+  background-color:#C8E1EF;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}
+/*Botó pausa*/
+#botoPausa{
+  padding: 8px 20px;
+  background-color:#C8E1EF;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}
+/*Botó reinici*/
+#botoReinici{
+  font-family: 'Caprasimo';
+  font-size:12px;
+  font-weight:400;
+  padding: 8px 30px;
+  background-color:#C8E1EF;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}

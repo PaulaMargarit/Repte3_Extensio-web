@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3, //Versió 3
+  "name": "Vinil d'estudi", //Nom extensió
+  "description": "Vinil que gira una hora per millorar la concentració i el temps d'estudi", //Descripció
+  "version": "0.0.1", //Versió actual
+  "action": {
+    "default_icon": "icon.png", //Icona extensió
+    "default_popup": "index.html", //Ho connectem amb el html
+    "default_title": "Vinil d'estudi" //Títol que apareix quan passes el ratolí
+  },
+  "permissions": ["storage"] //Permís per utilitzar localStorage
+}
